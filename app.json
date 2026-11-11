@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "AlertaCom",
+    "slug": "alertacom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "alertacom",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.thomasfontes.alertacom",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F2942"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O AlertaCom precisa de acesso à galeria para você selecionar a foto do incidente urbano.",
+          "cameraPermission": "O AlertaCom precisa de acesso à câmera para você registrar o alagamento ou bueiro obstruído."
+        }
+      ]
+    ]
+  }
+}
