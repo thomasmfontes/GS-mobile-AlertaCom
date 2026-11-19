@@ -3,7 +3,7 @@ import Constants from 'expo-constants';
 export const APP_INFO = {
   name: 'AlertaCom',
   version: Constants.expoConfig?.version || '1.0.0',
-  commitHash: '7f9a82b', // Hash de referência para entrega no Firebase App Distribution
+  commitHash: '8976dca', // Hash de referência para entrega no Firebase App Distribution
   discipline: 'Mobile Application Development',
   institution: 'FIAP - Graduação 2026',
   theme: 'Global Solution - CitizenTech (Cidades Resilientes e Prevenção Climática)',
