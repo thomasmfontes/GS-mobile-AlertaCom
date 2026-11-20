@@ -15,6 +15,15 @@
 
 ---
 
+## 🎥 Vídeo de Demonstração & Publicação
+
+- **Vídeo no YouTube**: https://youtu.be/_gTFXtPu4iE
+- **Firebase App Distribution (APK)**: https://appdistribution.firebase.google.com/testerapps/1:189565994647:android:1f043f5ab199f335130bd2/releases/0eqkm8h3748fo?utm_source=firebase-tools
+- **API Backend (.NET no Render)**: https://gs-dotnet-alertacomapi.onrender.com
+- **Hash do Commit de Referência**: `8976dca` (exibido na tela *Sobre o App*)
+
+---
+
 ## 📌 1. Visão Geral do Aplicativo
 
 O **AlertaCom Mobile** é um aplicativo desenvolvido em **React Native com TypeScript e Expo**, utilizando **React Navigation** (Stack Navigation e Bottom Tab Navigation), que coloca o cidadão no centro do enfrentamento a desastres climáticos (enchentes, alagamentos, bueiros obstruídos, quedas de árvores).
@@ -52,8 +61,8 @@ Conforme exigido pelo edital da disciplina (Slides 79-87), o app possui mais de 
 7. **`MyIncidentsScreen` (Meus Chamados - CRUD Update/Delete)**:
    - Painel de controle exclusivo do cidadão logado com histórico pessoal e opção de exclusão.
 8. **`AboutScreen` ("Sobre o App" - Requisito 7)**:
-   - Tela com os nomes, RMs e papéis dos 5 integrantes.
-   - Exibição em destaque do **Hash do Commit de Referência (`7f9a82b`)** para auditoria no Firebase App Distribution.
+   - Tela com os nomes, RMs e papéis dos 4 integrantes.
+   - Exibição em destaque do **Hash do Commit de Referência (`8976dca`)** para auditoria no Firebase App Distribution.
 
 ---
 
@@ -88,5 +97,7 @@ Pressione:
 
 ## 📦 5. Publicação no Firebase App Distribution (Requisito 7)
 
-- O arquivo `eas.json` está configurado para geração de build de preview (`apk`).
-- O hash do commit de referência está registrado no código em `src/config/appInfo.ts` e visível na tela "Sobre o App".
+- Build `.apk` gerado via EAS Build (`preview` profile) e publicado no **Firebase App Distribution** (projeto `alertacom-gs-2026`).
+- Tester convidado: `profantonio.neto@fiap.com.br`.
+- Link de instalação da release: https://appdistribution.firebase.google.com/testerapps/1:189565994647:android:1f043f5ab199f335130bd2/releases/0eqkm8h3748fo?utm_source=firebase-tools
+- O hash do commit de referência (`8976dca`) está registrado em `src/config/appInfo.ts` e visível na tela "Sobre o App".
