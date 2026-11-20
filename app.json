@@ -16,7 +16,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0F2942"
       },
-      "softwareKeyboardLayoutMode": "resize"
+      "softwareKeyboardLayoutMode": "resize",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "plugins": [
       [
@@ -26,6 +29,12 @@
           "cameraPermission": "O AlertaCom precisa de acesso à câmera para você registrar o alagamento ou bueiro obstruído."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a8c90b3-2a58-4d17-b55c-0f7798baf262"
+      }
+    },
+    "owner": "thomasfontes"
   }
 }
